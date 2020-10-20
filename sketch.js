@@ -34,11 +34,6 @@ function setup(){
 
     stone1 = new Stone(100,550,50,50);
 
-    //boy = createSprite(100,650,50,50);
-    //boy.addImage(boyImg);
-    //tree = createSprite(500,500,100,100);
-    //tree.addImage(treeImg);
-
     slingshot = new SlingShot(stone1.body,{x:100, y:550});
 }
 
