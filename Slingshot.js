@@ -9,7 +9,7 @@ class SlingShot{
         this.pointB = pointB
         this.sling = Constraint.create(options);
         World.add(world, this.sling);
-        this.boyImg = loadImage("sprites/boy.png");
+        this.boyImg = loadImage("boy.png");
     }
     attach(body){
         this.sling.bodyA = body;
