@@ -7,7 +7,7 @@ class Ground {
       this.width = width;
       this.height = height;
       World.add(world, this.body);
-      this.treeImg = loadImage("sprites/tree.png");
+      this.treeImg = loadImage("tree.png");
     }
     display(){
       image(this.treeImg,400,250,450,450);
